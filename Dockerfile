@@ -1,4 +1,4 @@
 FROM tomcat:latest
 MAINTAINER Kashi <kashi.sa200@gmail.com>
 EXPOSE 8085
-COPY target/JenkinsApp.war /usr/local/tomcat/webapps/JenkinsApp.war
+COPY target/JenkinsApp-1.0.0.war /usr/local/tomcat/webapps/JenkinsApp.war
